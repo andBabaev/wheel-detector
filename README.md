@@ -10,10 +10,6 @@ This project implements a state-of-the-art wheel detection system using the YOLO
 - Provide real-time detection capabilities
 - Support multiple wheel types and orientations
 
-## Dependencies
-
-- Python 3.10+ 
-
 ## Results
 
 | Model | mAP50 | mAP50-95 | Precision | Recall | Inference, ms |
@@ -25,6 +21,9 @@ This project implements a state-of-the-art wheel detection system using the YOLO
 ![Prediction Example 1](runs/detect/predict/250px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg)
 ![Prediction Example 2](runs/detect/predict/gettyimages-1026435554-2048x2048_jpg.rf.10aaedba4c04dc629896654c529d69db.jpg)
 
+## Dependencies
+
+- Python 3.10+ 
 
 ## Installation
 
