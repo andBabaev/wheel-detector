@@ -12,11 +12,15 @@ This project implements a state-of-the-art wheel detection system using the YOLO
 
 ## Results
 
-| Model | mAP50 | mAP50-95 | Precision | Recall | Inference, ms |
+| Model | mAP50 | mAP50-95 | Precision | Recall | Inference, ms* |
 |-------|-------|----------|-----------|---------|---------|
 | [YOLOv11n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov11n.pt) | 0.982 | 0.815 | 0.954 | 0.963 | 4.2 |
 | [YOLOv12n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12n.pt) | 0.884 | 0.645 | 0.839 | 0.836 | 4.2 |
 | [YOLOv12x](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12x.pt) | 0.985 | 0.826 | 0.973 | 0.959 | 46.9 |
+
+*RTX 3060 12GB
+
+[![Wheel Detection Demo](https://img.youtube.com/vi/LF1oFJg91Js/0.jpg)](https://www.youtube.com/watch?v=LF1oFJg91Js)
 
 ![Prediction Example 1](runs/detect/predict/250px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg)
 ![Prediction Example 2](runs/detect/predict/gettyimages-1026435554-2048x2048_jpg.rf.10aaedba4c04dc629896654c529d69db.jpg)
