@@ -176,3 +176,4 @@ epoch*.pt
 last.pt
 yolo*.pt
 *batch*
+runs/detect/val*/*

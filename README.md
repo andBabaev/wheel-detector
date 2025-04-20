@@ -64,11 +64,14 @@ Configure parameters in `config.yaml` according to your needs.
 
 ### Results
 
-| Model | mAP50 | mAP50-95 | Precision | Recall |
-|-------|-------|----------|-----------|---------|
-| [YOLOv11n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov11n.pt) | 14.6 | 10.4 | 57.9 | 22.0 |
-| [YOLOv12n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12n.pt) | 24.2 | 7.0 | 41.5 | 15.4 |
-| [YOLOv12x](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12x.pt) | 28.8 | 12.7 | 64.5 | 25.2 |
+| Model | mAP50 | mAP50-95 | Precision | Recall | Inference, ms |
+|-------|-------|----------|-----------|---------|---------|
+| [YOLOv11n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov11n.pt) | 0.982 | 0.815 | 0.954 | 0.963 |
+| [YOLOv12n](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12n.pt) | 0.884 | 0.645 | 0.839 | 0.836 |
+| [YOLOv12x](https://github.com/andBabaev/wheel-detector/releases/download/v1.0/yolov12x.pt) | 0.985 | 0.826 | 0.973 | 0.959 |
+
+![Prediction Example 1](runs/detect/predict/250px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg)
+![Prediction Example 2](runs/detect/predict/gettyimages-1026435554-2048x2048_jpg.rf.10aaedba4c04dc629896654c529d69db.jpg)
 
 
 ### Inference
