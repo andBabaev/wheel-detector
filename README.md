@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-## Datasets
+### Datasets
 
 I used several public datasets:
 
@@ -60,7 +60,7 @@ To train the model on your custom dataset:
 python train.py
 ```
 
-Configure parameters in config.yaml according to your needs.
+Configure parameters in `config.yaml` according to your needs.
 
 ### Results
 
