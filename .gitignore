@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+epoch*.pt
+last.pt
+yolo*.pt
+*batch*
