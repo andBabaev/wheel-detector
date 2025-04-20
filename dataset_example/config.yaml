@@ -1,0 +1,9 @@
+path: dataset_example
+train:
+  - images/train/023948023984.v1i
+
+val:
+  - images/val/023948023984.v1i
+
+nc: 1
+names: ['wheel']
