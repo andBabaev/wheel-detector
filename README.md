@@ -20,6 +20,8 @@ This project implements a state-of-the-art wheel detection system using the YOLO
 
 *RTX 3060 12GB
 
+[YouTube video](https://www.youtube.com/watch?v=LF1oFJg91Js)
+
 [![Wheel Detection Demo](https://img.youtube.com/vi/LF1oFJg91Js/0.jpg)](https://www.youtube.com/watch?v=LF1oFJg91Js)
 
 ![Prediction Example 1](runs/detect/predict/250px-2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg)
